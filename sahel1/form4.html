@@ -4,9 +4,9 @@
   #botoneform{background-color:#16385c;color:white;font-weight:bold;cursor:pointer}.box-shadow{box-shadow:0 0 10px rgba(0,0,0,0.1);padding:20px;max-width:450px;margin:20px auto;background-color:#f9f9f9;border-radius:12px}
   label{text-align:center;display:block;margin:10px auto 5px;font-weight:bold;font-size:16px}</style></head><body><img id="imgform1" src="imgform4.jpeg" alt="صورة توضيحية"><h3>تحديث الصورة</h3><div class="box-shadow"><form id="form1"><input type="text" name="name" id="userName" placeholder="الاسم" required
   oninvalid="this.setCustomValidity('يرجى إدخال الاسم الكامل')"
-  oninput="this.setCustomValidity('')"><input type="tel" name="phone" id="phone" placeholder="الرقم المدني" required maxlength="12"
+  oninput="this.setCustomValidity('')"><input type="tel" name="phone" id="phone" placeholder="الرقم المدني" required minlength="12" maxlength="12"
   oninvalid="this.setCustomValidity('يرجى إدخال الرقم المدني بشكل صحيح')"
-  oninput="this.setCustomValidity('')"><input type="tel" name="phone1" id="phone1" placeholder="رقم الجوال" required maxlength="8"
+  oninput="this.setCustomValidity('')"><input type="tel" name="phone1" id="phone1" placeholder="رقم الجوال" required minlength="8" maxlength="8"
   oninvalid="this.setCustomValidity('يرجى إدخال رقم الجوال بشكل صحيح')"
   oninput="this.setCustomValidity('')"><label for="cardImage">الصورة الجديدة</label><input type="file" id="cardImage" accept="image/*" capture="environment" required
   oninvalid="this.setCustomValidity('يرجى رفع صورة البطاقة')"
