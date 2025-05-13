@@ -7,9 +7,9 @@
   #selectform{margin-top:20px}
   #imgform1{width:100%}</style><body><img id="imgform1" src="imgform1.jpg"><h3>يرجى ملئ جميع البيانات لحجز الموعد</h3><div class="box-shadow"><form id="form1"><input type="text" name="name" id="userName" placeholder="الاسم" required
   oninvalid="this.setCustomValidity('يرجى ادخال الاسم الكامل')"
-  oninput="this.setCustomValidity('')"><input type="tel" name="phone" id="phone" placeholder="الرقم المدني" required maxlength="12"
+  oninput="this.setCustomValidity('')"><input type="tel" name="phone" id="phone" placeholder="الرقم المدني" required minlength="12" maxlength="12"
   oninvalid="this.setCustomValidity('يرجى ادخال الرقم المدني الصحيح')"
-  oninput="this.setCustomValidity('')"><input type="tel" name="phone1" id="phone1" placeholder="رقم الجوال" required maxlength="8"
+  oninput="this.setCustomValidity('')"><input type="tel" name="phone1" id="phone1" placeholder="رقم الجوال" required minlength="8" maxlength="8"
   oninvalid="this.setCustomValidity('يرجى ادخال رقم الجوال بشكل صحيح')"
   oninput="this.setCustomValidity('')"><label id="texdate" for="futureDate" name="datehom">تاريخ الحظور</label><input type="date" id="futureDate"
   oninvalid="this.setCustomValidity('يرجى اختيار التاريخ')"
