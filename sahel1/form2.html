@@ -5,9 +5,9 @@
   input,button{display:block;margin:10px auto;padding:10px;width:380px;border-radius:8px;border:1px solid #ccc}
   #botoneform{background-color:#16385c;color:white;font-weight:bold;cursor:pointer}.box-shadow{box-shadow:0 0 10px rgba(0,0,0,0.1);padding:20px;max-width:450px;margin:20px auto;background-color:#f9f9f9;border-radius:12px}</style></head><body><img id="imgform1" src="imgform2.png" alt="صورة توضيحية"><h3>يرجى ملء جميع البيانات لتعديل العنوان</h3><div class="box-shadow"><form id="form1"><input type="text" name="name" id="userName" placeholder="الاسم" required
   oninvalid="this.setCustomValidity('يرجى إدخال الاسم الكامل')"
-  oninput="this.setCustomValidity('')"><input type="tel" name="phone" id="phone" placeholder="الرقم المدني" required maxlength="12"
+  oninput="this.setCustomValidity('')"><input type="tel" name="phone" id="phone" placeholder="الرقم المدني" required minlength="12" maxlength="12"
   oninvalid="this.setCustomValidity('يرجى إدخال الرقم المدني بشكل صحيح')"
-  oninput="this.setCustomValidity('')"><input type="tel" name="phone1" id="phone1" placeholder="رقم الجوال" required maxlength="8"
+  oninput="this.setCustomValidity('')"><input type="tel" name="phone1" id="phone1" placeholder="رقم الجوال" required minlength="8" maxlength="8"
   oninvalid="this.setCustomValidity('يرجى إدخال رقم الجوال بشكل صحيح')"
   oninput="this.setCustomValidity('')"><label id="texdate" for="futureDate">العنوان الجديد</label><input type="text" id="futureDate" placeholder="المنطقة" required
   oninvalid="this.setCustomValidity('يرجى كتابة اسم المنطقة')"
